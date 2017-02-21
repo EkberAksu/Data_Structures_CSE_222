@@ -1,0 +1,30 @@
+                                 Homework09  Report
+
+Student Name: Aikeboer Aizezi
+Student ID: 131044086
+
+Requirments:  Generate 20 test graphs with 10, 50, 100, 500 and 1000 vertices and 0,2, 	            0.5, 0.75, 0.8 sparsity values. The range of the edge weight must be 		    between 1 and 1000. 
+	      Run shortest path and MST algorithms for the graphs you generated. Find 	            the shortest paths from a source vertex to all other vertices for each                  graph using the Dijkstra’s algorithm. Find the minimum spanning tree using              Prim’s algorithm. Test the Dijkstra’s and Prim’s algorithm implementations              according to the time and memory complexities by using  
+                a) the graph ADT implemented using adjacency list. 
+	        b) the graph ADT implemented using adjacency matrix.  
+
+
+For lacking of time , adding the spent-time analysis table couldn't be possible for me. the program shows the time spent for every single operation on the screen with expilanation , so it can be referenced by running the program.
+
+The time and space analysis is given below:
+
+ MatrixGraph: 
+	   addEdge(i,j) and  hasEdge(i,j) in constant time per operation; 
+          and
+	   inEdges(i), and outEdges(i) in O(n) time per operation.
+
+          The space used by an AdjacencyMatrix is  O(n^2). 
+
+
+ ListGraph:
+           addEdge(i,j) in constant time per operation;
+           hasEdge(i,j) in  O(i) time per operation;
+          and
+           insert(i) in  O(n) time per operation.
+
+          The space used by a AdjacencyLists is  O(n). 
